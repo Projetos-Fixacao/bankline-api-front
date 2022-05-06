@@ -46,7 +46,7 @@ export class MovimentacaoNewComponent implements OnInit {
       dataHora:this.dataHora
 
     };
-    console.log(movimentacao);
+    console.log(movimentacao + "WWWWWWWWWWWWW");
     this.movimentacaoService.create(movimentacao)
       .subscribe(
         response => {
